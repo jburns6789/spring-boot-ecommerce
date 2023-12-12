@@ -20,7 +20,7 @@ public class Service {
     private Long id;
 
     @ManyToOne      //Advanced JPA Relationship mapping
-    @JoinColumn(name = "category_id", nullable = false)
+    @JoinColumn(name = "service_id", nullable = false)
     private ServiceCategory category;
 
     @Column(name = "sku")
