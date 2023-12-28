@@ -184,6 +184,18 @@ CREATE TABLE `order_item` (
 
 
 
+--Adding email to the tables--
+ALTER TABLE customer ADD UNIQUE(email)
+SET FOREIGN_KEY_CHECKS=1
+TRUNCATE address
+TRUNCATE order_item
+TRUNCATE orders
+TRUNCATE customer
+SET FOREIGN_KEY_CHECKS=0
+USE `full-stack-ecommerce`
+
+
+
 --Adding countries to check out form--
 USE `full-stack-ecommerce`;
 
