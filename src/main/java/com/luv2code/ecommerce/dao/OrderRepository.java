@@ -12,4 +12,11 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
 
     Page<Order> findByCustomerEmailOrderByDateCreatedDesc(@Param("email") String email, Pageable pageable);
     //spring will generate the query based on the method name: find by, customer email, order by, date created, descending
+
+    Page<Order> findByOrderTrackingNumber(@Param("order_tracking_number") String orderTrackingNumber);
+
+    void deleteByOrderTrackingNumber(String orderTrackingNumber);
+    //find order by tracking number
+
 }
+

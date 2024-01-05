@@ -1,262 +1,552 @@
-2023-12-28T00:45:19.356-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h144ms).
-2023-12-28T00:45:19.358-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T00:45:19.358-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T00:45:49.359-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T00:45:49.359-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T00:45:51.307-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703742351307 sessioncount 0
-2023-12-28T00:45:51.307-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T00:46:19.358-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T00:46:19.358-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T02:17:17.797-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m58s439ms).
-2023-12-28T02:17:17.797-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T02:17:17.797-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T02:17:19.779-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703747839779 sessioncount 0
-2023-12-28T02:17:19.779-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T02:17:47.784-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T02:17:47.784-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T04:17:48.877-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1s93ms).
-2023-12-28T04:17:48.877-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T04:17:48.877-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T04:17:50.873-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703755070873 sessioncount 0
-2023-12-28T04:17:50.873-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T04:18:18.876-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T04:18:18.876-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T04:18:48.883-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T04:18:48.883-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T04:18:50.891-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703755130891 sessioncount 0
-2023-12-28T04:18:50.891-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T06:18:49.184-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h301ms).
-2023-12-28T06:18:49.184-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T06:18:49.184-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T06:19:19.184-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T06:19:19.184-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T06:19:21.235-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703762361235 sessioncount 0
-2023-12-28T06:19:21.235-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T06:32:58.758-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m39s574ms).
-2023-12-28T06:32:58.759-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T06:32:58.759-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T06:33:28.765-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T06:33:28.766-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T06:33:30.719-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703763210719 sessioncount 0
-2023-12-28T06:33:30.720-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
-2023-12-28T06:33:58.772-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T06:33:58.772-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T08:19:59.195-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m423ms).
-2023-12-28T08:19:59.196-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T08:19:59.196-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T08:20:01.158-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703769601158 sessioncount 0
-2023-12-28T08:20:01.158-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T08:20:29.204-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T08:20:29.204-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T08:20:59.204-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T08:20:59.205-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T08:33:59.559-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703770439558 sessioncount 0
-2023-12-28T08:33:59.561-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 3 expired sessions: 0
-2023-12-28T08:34:26.521-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m27s317ms).
-2023-12-28T08:34:26.521-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T08:34:26.521-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T08:34:28.359-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ee0e68f: (connection has passed maxLifetime)
-2023-12-28T08:34:28.822-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11dca71f
-2023-12-28T08:34:56.524-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T08:34:56.524-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T08:34:59.585-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703770499585 sessioncount 0
-2023-12-28T08:34:59.585-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T08:35:05.943-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@674d61b0: (connection has passed maxLifetime)
-2023-12-28T08:35:06.271-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63e936a2
-2023-12-28T08:35:09.351-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d64c2dd: (connection has passed maxLifetime)
-2023-12-28T08:35:09.651-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22d43c99
-2023-12-28T08:35:10.162-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@622c6a70: (connection has passed maxLifetime)
-2023-12-28T08:35:10.464-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@133c3d74
-2023-12-28T09:15:55.405-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@602580e8: (connection has passed maxLifetime)
-2023-12-28T09:15:56.772-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m248ms).
-2023-12-28T09:15:56.772-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=9, active=0, idle=9, waiting=0)
-2023-12-28T09:15:56.819-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44cbb976
-2023-12-28T09:16:01.667-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47cfe9b0: (connection has passed maxLifetime)
-2023-12-28T09:16:02.239-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f6b34d
-2023-12-28T09:16:18.650-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a25b145: (connection has passed maxLifetime)
-2023-12-28T09:16:19.102-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@412fc358
-2023-12-28T09:16:26.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:16:26.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:16:29.845-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703772989845 sessioncount 0
-2023-12-28T09:16:29.845-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:16:56.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:16:56.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:16:56.978-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c80ed21: (connection has passed maxLifetime)
-2023-12-28T09:16:57.052-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Add connection elided, waiting=0, adders pending/running=2
-2023-12-28T09:16:57.052-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@553e3ee6: (connection has passed maxLifetime)
-2023-12-28T09:16:57.397-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65962674
-2023-12-28T09:16:57.722-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24ab2c4f
-2023-12-28T09:17:01.549-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3dbde71a: (connection has passed maxLifetime)
-2023-12-28T09:17:01.924-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15c5ccc5
-2023-12-28T09:17:26.770-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:17:26.770-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:17:29.849-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773049849 sessioncount 0
-2023-12-28T09:17:29.849-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:17:56.769-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:17:56.769-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:18:26.773-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:18:26.773-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:18:29.858-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773109857 sessioncount 0
-2023-12-28T09:18:29.858-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
-2023-12-28T09:18:56.772-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:18:56.772-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:19:26.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:19:26.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:19:29.873-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773169872 sessioncount 0
-2023-12-28T09:19:29.873-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
-2023-12-28T09:19:56.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:19:56.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:20:26.770-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:20:26.770-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:20:29.888-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773229888 sessioncount 0
-2023-12-28T09:20:29.888-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:20:56.772-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:20:56.772-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:21:26.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:21:26.771-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:21:29.902-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773289902 sessioncount 0
-2023-12-28T09:21:29.902-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:21:56.770-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:21:56.770-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:22:26.774-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:22:26.775-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:22:29.918-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773349918 sessioncount 0
-2023-12-28T09:22:29.918-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:22:56.776-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:22:56.776-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:23:26.775-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:23:26.775-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:23:29.928-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773409928 sessioncount 0
-2023-12-28T09:23:29.928-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:23:56.779-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:23:56.779-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:24:26.781-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:24:26.781-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:24:29.941-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773469941 sessioncount 0
-2023-12-28T09:24:29.941-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:24:56.780-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:24:56.780-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:25:26.781-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:25:26.781-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:25:29.944-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773529944 sessioncount 0
-2023-12-28T09:25:29.944-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:25:56.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:25:56.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:26:26.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:26:26.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:26:29.947-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773589947 sessioncount 0
-2023-12-28T09:26:29.947-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:26:56.783-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:26:56.783-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:27:26.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:27:26.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:27:29.960-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773649960 sessioncount 0
-2023-12-28T09:27:29.961-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
-2023-12-28T09:27:56.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:27:56.782-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:28:26.785-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:28:26.786-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:28:29.971-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773709971 sessioncount 0
-2023-12-28T09:28:29.971-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:28:56.785-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:28:56.785-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:29:26.787-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:29:26.787-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:29:29.984-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773769984 sessioncount 0
-2023-12-28T09:29:29.984-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:29:56.788-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:29:56.789-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:30:26.791-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:30:26.792-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:30:29.990-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773829990 sessioncount 0
-2023-12-28T09:30:29.990-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:30:56.902-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:30:56.903-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:31:26.904-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:31:26.905-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:31:30.109-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773890108 sessioncount 0
-2023-12-28T09:31:30.109-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
-2023-12-28T09:31:56.904-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:31:56.904-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:32:26.904-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:32:26.904-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:32:30.124-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703773950124 sessioncount 0
-2023-12-28T09:32:30.125-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
-2023-12-28T09:32:56.907-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:32:56.907-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:33:26.907-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:33:26.907-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:33:30.136-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774010136 sessioncount 0
-2023-12-28T09:33:30.136-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:33:56.908-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:33:56.908-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:34:26.907-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:34:26.908-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:34:30.150-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774070150 sessioncount 0
-2023-12-28T09:34:30.150-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:34:56.908-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:34:56.908-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:35:26.908-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:35:26.909-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:35:30.159-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774130159 sessioncount 0
-2023-12-28T09:35:30.159-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:35:56.909-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:35:56.910-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:36:26.913-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:36:26.915-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:36:30.167-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774190167 sessioncount 0
-2023-12-28T09:36:30.167-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:36:56.914-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:36:56.914-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:37:26.916-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:37:26.917-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:37:30.178-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774250178 sessioncount 0
-2023-12-28T09:37:30.178-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:37:56.918-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:37:56.918-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:38:26.918-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:38:26.919-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:38:30.184-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774310184 sessioncount 0
-2023-12-28T09:38:30.185-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
-2023-12-28T09:38:56.922-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:38:56.923-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:39:26.926-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:39:26.926-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:39:30.201-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774370201 sessioncount 0
-2023-12-28T09:39:30.202-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:39:56.926-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:39:56.926-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:40:26.927-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:40:26.928-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:40:30.205-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774430205 sessioncount 0
-2023-12-28T09:40:30.205-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:40:56.929-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:40:56.929-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:41:26.932-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:41:26.932-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:41:30.217-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774490217 sessioncount 0
-2023-12-28T09:41:30.218-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:41:56.935-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:41:56.935-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:42:26.935-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:42:26.935-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:42:30.229-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774550229 sessioncount 0
-2023-12-28T09:42:30.229-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:42:56.938-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:42:56.938-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:43:26.941-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:43:26.942-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:43:30.244-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774610244 sessioncount 0
-2023-12-28T09:43:30.244-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:43:56.941-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:43:56.942-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:44:26.943-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:44:26.943-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:44:30.254-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1703774670254 sessioncount 0
-2023-12-28T09:44:30.254-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
-2023-12-28T09:44:38.234-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11dca71f: (connection has passed maxLifetime)
-2023-12-28T09:44:38.626-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16bd2b0d
-2023-12-28T09:44:56.946-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2023-12-28T09:44:56.947-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
-2023-12-28T09:44:58.224-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@133c3d74: (connection has passed maxLifetime)
-2023-12-28T09:44:58.545-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@330136c2
+2024-01-01T00:47:57.675-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704088077675 sessioncount 0
+2024-01-01T00:47:57.676-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T00:48:11.890-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1s271ms).
+2024-01-01T00:48:11.890-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T00:48:11.890-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T00:48:41.891-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T00:48:41.891-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T00:48:57.710-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704088137710 sessioncount 0
+2024-01-01T00:48:57.710-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T02:48:43.333-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1s442ms).
+2024-01-01T02:48:43.333-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T02:48:43.333-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T02:49:13.123-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s790ms), soft-evicting connections from pool.
+2024-01-01T02:49:13.123-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76d32d04: (connection evicted)
+2024-01-01T02:49:13.124-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a0dda50: (connection evicted)
+2024-01-01T02:49:13.124-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b30d06b: (connection evicted)
+2024-01-01T02:49:13.124-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6eedcb3f: (connection evicted)
+2024-01-01T02:49:13.124-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5aab59d4: (connection evicted)
+2024-01-01T02:49:13.124-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4bf2d675: (connection evicted)
+2024-01-01T02:49:13.124-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b085874: (connection evicted)
+2024-01-01T02:49:13.125-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@53d2a3c: (connection evicted)
+2024-01-01T02:49:13.125-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4dbcc502: (connection evicted)
+2024-01-01T02:49:13.125-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c81cf39: (connection evicted)
+2024-01-01T02:49:13.504-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@681f0f40
+2024-01-01T02:49:13.860-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2922057b
+2024-01-01T02:49:14.164-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18416958
+2024-01-01T02:49:14.479-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@490dfa34
+2024-01-01T02:49:14.822-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7299e3cf
+2024-01-01T02:49:15.168-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d434798
+2024-01-01T02:49:15.520-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bfb820f
+2024-01-01T02:49:15.838-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@692bf76a
+2024-01-01T02:49:16.196-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b87459
+2024-01-01T02:49:16.550-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@147ea14d
+2024-01-01T02:49:28.960-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704095368960 sessioncount 0
+2024-01-01T02:49:28.961-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T02:49:43.128-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T02:49:43.128-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T04:49:43.283-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h155ms).
+2024-01-01T04:49:43.283-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T04:49:43.283-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T04:49:59.134-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704102599134 sessioncount 0
+2024-01-01T04:49:59.135-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T04:50:13.282-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T04:50:13.282-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T04:50:43.282-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T04:50:43.282-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T04:53:30.619-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704102810619 sessioncount 0
+2024-01-01T04:53:30.619-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T04:53:44.735-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m1s453ms).
+2024-01-01T04:53:44.735-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T04:53:44.735-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T04:54:14.735-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T04:54:14.735-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T04:54:30.643-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704102870643 sessioncount 0
+2024-01-01T04:54:30.643-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T06:29:25.081-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m10s346ms).
+2024-01-01T06:29:25.081-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T06:29:25.081-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T06:29:55.089-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T06:29:55.089-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T06:30:11.019-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704108611019 sessioncount 0
+2024-01-01T06:30:11.019-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T06:30:25.088-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T06:30:25.088-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T06:34:08.829-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m43s741ms).
+2024-01-01T06:34:08.829-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T06:34:08.829-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T06:34:24.777-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704108864777 sessioncount 0
+2024-01-01T06:34:24.777-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T06:34:38.828-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T06:34:38.829-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:20:39.311-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m483ms).
+2024-01-01T08:20:39.311-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:20:39.311-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:20:55.270-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704115255270 sessioncount 0
+2024-01-01T08:20:55.270-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T08:21:09.318-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:21:09.318-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:21:39.318-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:21:39.318-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:30:23.286-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704115823285 sessioncount 0
+2024-01-01T08:30:23.286-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T08:30:37.303-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m57s985ms).
+2024-01-01T08:30:37.304-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:30:37.304-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:31:07.308-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:31:07.308-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:31:23.308-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704115883308 sessioncount 0
+2024-01-01T08:31:23.308-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T08:44:48.435-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m41s127ms).
+2024-01-01T08:44:48.435-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:44:48.436-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:45:18.410-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:45:18.411-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T08:45:34.429-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704116734429 sessioncount 0
+2024-01-01T08:45:34.429-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T08:45:48.413-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T08:45:48.413-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:31:36.109-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m47s696ms).
+2024-01-01T09:31:36.110-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:31:36.110-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:31:52.141-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704119512140 sessioncount 0
+2024-01-01T09:31:52.141-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T09:32:06.115-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:32:06.116-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:42:33.476-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m27s361ms).
+2024-01-01T09:42:33.476-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:42:33.476-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:42:49.514-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120169514 sessioncount 0
+2024-01-01T09:42:49.515-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:43:03.476-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:43:03.476-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:43:33.476-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:43:33.476-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:44:03.157-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120243157 sessioncount 0
+2024-01-01T09:44:03.157-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:44:17.092-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:44:17.092-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:44:47.093-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:44:47.094-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:45:03.170-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120303170 sessioncount 0
+2024-01-01T09:45:03.170-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:45:17.096-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:45:17.097-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:45:47.099-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:45:47.099-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:46:03.184-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120363184 sessioncount 0
+2024-01-01T09:46:03.184-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:46:17.102-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:46:17.102-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:46:47.106-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:46:47.121-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:47:03.200-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120423200 sessioncount 0
+2024-01-01T09:47:03.200-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:47:17.127-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:47:17.127-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:47:47.126-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:47:47.126-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:48:03.218-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120483218 sessioncount 0
+2024-01-01T09:48:03.219-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T09:48:17.126-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:48:17.126-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:48:47.130-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:48:47.130-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:49:03.233-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120543233 sessioncount 0
+2024-01-01T09:49:03.233-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:49:17.134-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:49:17.135-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:49:47.136-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:49:47.136-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:50:03.249-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120603249 sessioncount 0
+2024-01-01T09:50:03.250-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T09:50:17.138-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:50:17.138-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:50:47.142-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:50:47.143-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:51:03.255-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120663255 sessioncount 0
+2024-01-01T09:51:03.255-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:51:17.094-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:51:17.094-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:51:47.095-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:51:47.095-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:52:03.214-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120723214 sessioncount 0
+2024-01-01T09:52:03.214-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:52:17.098-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:52:17.098-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:52:47.098-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:52:47.098-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:53:03.219-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120783218 sessioncount 0
+2024-01-01T09:53:03.219-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T09:53:17.098-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:53:17.099-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:53:47.098-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:53:47.098-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:54:03.234-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120843234 sessioncount 0
+2024-01-01T09:54:03.234-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:54:17.100-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:54:17.101-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:54:47.102-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:54:47.102-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:55:03.246-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120903246 sessioncount 0
+2024-01-01T09:55:03.246-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:55:17.101-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:55:17.101-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:55:47.100-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:55:47.100-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:56:03.260-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704120963260 sessioncount 0
+2024-01-01T09:56:03.261-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T09:56:17.102-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:56:17.102-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:56:47.105-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:56:47.105-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:57:03.268-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121023267 sessioncount 0
+2024-01-01T09:57:03.268-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T09:57:17.109-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:57:17.109-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:57:47.111-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:57:47.111-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:58:03.279-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121083279 sessioncount 0
+2024-01-01T09:58:03.280-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T09:58:17.112-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:58:17.112-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:58:47.112-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:58:47.113-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:59:03.290-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121143290 sessioncount 0
+2024-01-01T09:59:03.290-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T09:59:17.116-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:59:17.116-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T09:59:47.119-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T09:59:47.119-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:00:03.294-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121203294 sessioncount 0
+2024-01-01T10:00:03.295-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:00:17.119-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:00:17.119-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:00:47.121-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:00:47.121-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:01:03.310-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121263310 sessioncount 0
+2024-01-01T10:01:03.310-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:01:08.284-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b87459: (connection has passed maxLifetime)
+2024-01-01T10:01:08.823-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13e72785
+2024-01-01T10:01:11.461-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7299e3cf: (connection has passed maxLifetime)
+2024-01-01T10:01:11.770-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52da2dbe
+2024-01-01T10:01:17.120-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:01:17.120-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:01:18.246-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@692bf76a: (connection has passed maxLifetime)
+2024-01-01T10:01:18.569-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7dac28e6
+2024-01-01T10:01:20.728-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4d434798: (connection has passed maxLifetime)
+2024-01-01T10:01:21.071-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c9122dd
+2024-01-01T10:01:31.040-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18416958: (connection has passed maxLifetime)
+2024-01-01T10:01:31.393-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e25d832
+2024-01-01T10:01:33.544-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@681f0f40: (connection has passed maxLifetime)
+2024-01-01T10:01:33.833-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f18d209
+2024-01-01T10:01:36.749-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1bfb820f: (connection has passed maxLifetime)
+2024-01-01T10:01:37.061-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e5dbadb
+2024-01-01T10:01:37.880-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2922057b: (connection has passed maxLifetime)
+2024-01-01T10:01:38.196-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f372d46
+2024-01-01T10:01:39.944-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@147ea14d: (connection has passed maxLifetime)
+2024-01-01T10:01:40.361-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a4ba98c
+2024-01-01T10:01:41.325-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@490dfa34: (connection has passed maxLifetime)
+2024-01-01T10:01:41.627-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b79b6c8
+2024-01-01T10:01:47.123-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:01:47.123-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:02:03.320-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121323320 sessioncount 0
+2024-01-01T10:02:03.320-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:02:17.123-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:02:17.123-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:02:47.123-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:02:47.123-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:03:03.333-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121383333 sessioncount 0
+2024-01-01T10:03:03.333-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:03:17.124-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:03:17.124-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:03:47.124-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:03:47.124-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:04:03.347-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121443346 sessioncount 0
+2024-01-01T10:04:03.347-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:04:17.128-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:04:17.128-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:04:47.129-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:04:47.129-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:05:03.355-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121503355 sessioncount 0
+2024-01-01T10:05:03.355-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:05:17.128-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:05:17.128-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:05:47.128-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:05:47.146-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:06:03.363-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121563363 sessioncount 0
+2024-01-01T10:06:03.363-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:06:17.147-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:06:17.147-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:06:47.149-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:06:47.149-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:07:03.371-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121623371 sessioncount 0
+2024-01-01T10:07:03.371-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:07:17.148-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:07:17.148-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:07:47.152-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:07:47.152-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:08:03.389-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121683389 sessioncount 0
+2024-01-01T10:08:03.389-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:08:17.152-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:08:17.152-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:08:47.155-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:08:47.155-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:09:03.404-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121743404 sessioncount 0
+2024-01-01T10:09:03.404-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:09:17.158-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:09:17.158-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:09:47.160-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:09:47.160-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:10:03.411-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121803411 sessioncount 0
+2024-01-01T10:10:03.412-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:10:17.162-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:10:17.162-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:10:47.161-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:10:47.161-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:11:03.422-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121863422 sessioncount 0
+2024-01-01T10:11:03.422-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:11:17.160-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:11:17.160-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:11:47.163-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:11:47.163-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:12:03.427-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121923427 sessioncount 0
+2024-01-01T10:12:03.427-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:12:17.167-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:12:17.167-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:12:47.166-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:12:47.166-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:13:03.440-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704121983440 sessioncount 0
+2024-01-01T10:13:03.440-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:13:17.168-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:13:17.168-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:13:47.168-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:13:47.168-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:14:03.450-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122043450 sessioncount 0
+2024-01-01T10:14:03.450-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:14:17.283-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:14:17.283-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:14:47.286-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:14:47.286-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:15:03.578-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122103578 sessioncount 0
+2024-01-01T10:15:03.578-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:15:17.285-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:15:17.285-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:15:47.287-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:15:47.287-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:16:03.590-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122163590 sessioncount 0
+2024-01-01T10:16:03.591-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:16:17.288-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:16:17.288-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:16:47.295-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:16:47.295-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:17:03.594-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122223594 sessioncount 0
+2024-01-01T10:17:03.594-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:17:17.294-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:17:17.306-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:17:47.309-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:17:47.309-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:18:03.608-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122283608 sessioncount 0
+2024-01-01T10:18:03.609-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:18:17.317-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:18:17.317-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:18:47.316-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:18:47.316-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:19:03.636-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122343635 sessioncount 0
+2024-01-01T10:19:03.636-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:19:17.316-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:19:17.316-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:19:47.316-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:19:47.317-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:20:03.651-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122403651 sessioncount 0
+2024-01-01T10:20:03.651-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:20:17.321-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:20:17.321-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:20:47.334-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:20:47.335-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:21:03.691-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122463691 sessioncount 0
+2024-01-01T10:21:03.692-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:28:40.617-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m53s283ms).
+2024-01-01T10:28:40.617-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:28:40.617-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:29:10.627-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:29:10.627-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:29:26.976-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704122966976 sessioncount 0
+2024-01-01T10:29:26.976-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:29:40.626-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:29:40.626-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:36:43.356-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m2s730ms).
+2024-01-01T10:36:43.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:36:43.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:36:59.729-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123419729 sessioncount 0
+2024-01-01T10:36:59.729-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:37:13.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:37:13.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:37:43.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:37:43.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:37:59.741-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123479741 sessioncount 0
+2024-01-01T10:37:59.741-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:38:13.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:38:13.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:38:43.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:38:43.356-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:38:59.744-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123539744 sessioncount 0
+2024-01-01T10:38:59.744-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:39:13.355-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:39:13.355-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:39:43.355-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:39:43.355-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:39:59.755-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123599755 sessioncount 0
+2024-01-01T10:39:59.755-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:40:13.357-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:40:13.357-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:40:43.358-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:40:43.359-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:40:59.759-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123659759 sessioncount 0
+2024-01-01T10:40:59.759-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:41:13.359-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:41:13.359-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:41:43.362-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:41:43.362-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:41:59.768-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123719768 sessioncount 0
+2024-01-01T10:41:59.768-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:42:13.364-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:42:13.364-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:42:43.365-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:42:43.366-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:42:59.773-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123779773 sessioncount 0
+2024-01-01T10:42:59.773-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:43:13.368-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:43:13.368-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:43:43.368-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:43:43.368-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:43:59.781-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123839781 sessioncount 0
+2024-01-01T10:43:59.781-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:44:13.367-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:44:13.368-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:44:29.798-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13e72785: (connection has passed maxLifetime)
+2024-01-01T10:44:30.150-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@746e72f4
+2024-01-01T10:44:43.371-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:44:43.371-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:44:43.740-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7dac28e6: (connection has passed maxLifetime)
+2024-01-01T10:44:44.085-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2789d6f7
+2024-01-01T10:44:46.659-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52da2dbe: (connection has passed maxLifetime)
+2024-01-01T10:44:47.017-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66b4dccc
+2024-01-01T10:44:47.575-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f18d209: (connection has passed maxLifetime)
+2024-01-01T10:44:47.946-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5718f9a9
+2024-01-01T10:44:49.016-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e5dbadb: (connection has passed maxLifetime)
+2024-01-01T10:44:49.333-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69b2383
+2024-01-01T10:44:59.788-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123899788 sessioncount 0
+2024-01-01T10:44:59.806-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 18 expired sessions: 0
+2024-01-01T10:45:02.907-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3c9122dd: (connection has passed maxLifetime)
+2024-01-01T10:45:03.329-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54efdb3f
+2024-01-01T10:45:03.611-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a4ba98c: (connection has passed maxLifetime)
+2024-01-01T10:45:03.924-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15d2d104
+2024-01-01T10:45:13.373-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:45:13.374-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:45:17.761-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e25d832: (connection has passed maxLifetime)
+2024-01-01T10:45:18.101-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4402fe82
+2024-01-01T10:45:21.929-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f372d46: (connection has passed maxLifetime)
+2024-01-01T10:45:22.273-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53ff4b9
+2024-01-01T10:45:32.372-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b79b6c8: (connection has passed maxLifetime)
+2024-01-01T10:45:32.698-05:00 DEBUG 79813 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a3967ff
+2024-01-01T10:45:43.378-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:45:43.378-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:45:59.815-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704123959815 sessioncount 0
+2024-01-01T10:45:59.816-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:46:13.377-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:46:13.377-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:46:43.378-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:46:43.379-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:46:59.830-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124019830 sessioncount 0
+2024-01-01T10:46:59.830-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:47:13.378-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:47:13.378-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:47:43.381-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:47:43.381-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:47:59.848-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124079848 sessioncount 0
+2024-01-01T10:47:59.848-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:48:13.386-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:48:13.386-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:48:43.389-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:48:43.389-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:48:59.867-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124139867 sessioncount 0
+2024-01-01T10:48:59.867-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:49:13.388-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:49:13.388-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:49:43.393-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:49:43.393-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:49:59.875-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124199875 sessioncount 0
+2024-01-01T10:49:59.875-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:50:13.393-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:50:13.393-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:50:43.396-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:50:43.396-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:50:59.881-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124259881 sessioncount 0
+2024-01-01T10:50:59.881-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:51:13.398-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:51:13.398-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:51:43.397-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:51:43.398-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:51:59.911-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124319911 sessioncount 0
+2024-01-01T10:51:59.911-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:52:13.404-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:52:13.404-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:52:43.413-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:52:43.413-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:52:59.924-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124379924 sessioncount 0
+2024-01-01T10:52:59.924-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:53:13.412-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:53:13.413-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:53:43.414-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:53:43.414-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:53:59.938-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124439938 sessioncount 0
+2024-01-01T10:53:59.939-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-01-01T10:54:13.420-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:54:13.420-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:54:43.425-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:54:43.425-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:54:59.949-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124499949 sessioncount 0
+2024-01-01T10:54:59.949-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:55:13.427-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:55:13.428-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:55:43.429-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:55:43.433-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:56:00.019-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124560019 sessioncount 0
+2024-01-01T10:56:00.019-05:00 DEBUG 79813 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:56:13.498-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:56:13.499-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:57:47.587-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s89ms).
+2024-01-01T10:57:47.587-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:57:47.587-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:58:04.110-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124684110 sessioncount 0
+2024-01-01T10:58:04.110-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T10:58:17.587-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:58:17.587-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T10:58:47.587-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T10:58:47.587-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T11:00:43.732-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1704124843732 sessioncount 0
+2024-01-01T11:00:43.732-05:00 DEBUG 79813 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-01-01T11:00:57.199-05:00  WARN 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s612ms).
+2024-01-01T11:00:57.199-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T11:00:57.199-05:00 DEBUG 79813 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-01-01T11:01:24.874-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-01-01T11:01:24.874-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e6ef134, started on Wed Dec 27 15:13:14 EST 2023
+2024-01-01T11:01:24.875-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147482623
+2024-01-01T11:01:24.877-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-01-01T11:01:24.877-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147481599
+2024-01-01T11:01:24.885-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2024-01-01T11:01:24.886-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2024-01-01T11:01:24.886-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-01-01T11:01:24.886-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2024-01-01T11:01:24.887-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2024-01-01T11:01:24.887-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-01T11:01:24.888-05:00  INFO 79813 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-01T11:01:24.888-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.hibernate.internal.SessionFactoryImpl  : HHH000031: Closing
+2024-01-01T11:01:24.889-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@347fc3ed] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6560f387]
+2024-01-01T11:01:24.889-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2024-01-01T11:01:24.890-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] o.h.b.r.i.BootstrapServiceRegistryImpl   : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2024-01-01T11:01:24.891-05:00  INFO 79813 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@746e72f4: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2789d6f7: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66b4dccc: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5718f9a9: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69b2383: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54efdb3f: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15d2d104: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4402fe82: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@53ff4b9: (connection evicted)
+2024-01-01T11:01:24.891-05:00 DEBUG 79813 --- [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a3967ff: (connection evicted)
+2024-01-01T11:01:24.892-05:00 DEBUG 79813 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-01-01T11:01:24.892-05:00  INFO 79813 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

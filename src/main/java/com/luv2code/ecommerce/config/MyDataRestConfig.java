@@ -35,6 +35,8 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST,
                                               HttpMethod.DELETE, HttpMethod.PATCH};
 
+        HttpMethod[] blank = {}; //pass in blank array
+
         // ---------    disable HTTP methods for Product: PUT, POST, DELETE, PATCH    ------------
         // ---------    disable HTTP methods for Product Category: PUT, POST, DELETE    ------------
         // ---------    disable HTTP methods for Country: PUT, POST, DELETE    ------------
@@ -44,7 +46,8 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         disableHttpMethods(ProductCategory.class, config, theUnsupportedActions);
         disableHttpMethods(Country.class, config, theUnsupportedActions);
         disableHttpMethods(State.class, config, theUnsupportedActions);
-        disableHttpMethods(Order.class, config, theUnsupportedActions);
+
+        disableHttpMethods(Order.class, config, blank);
 
         // call internal help to expose Ids
         exposeIds(config);
