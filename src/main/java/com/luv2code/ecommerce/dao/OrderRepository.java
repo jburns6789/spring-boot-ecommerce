@@ -7,13 +7,16 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
+import java.util.Optional;
+
 @RepositoryRestResource
 public interface OrderRepository extends JpaRepository<Order, Long> { // All CRUD methods
 
     Page<Order> findByCustomerEmailOrderByDateCreatedDesc(@Param("email") String email, Pageable pageable);
     //spring will generate the query based on the method name: find by, customer email, order by, date created, descending
+    //used in order-history.ts
 
-    Order findByOrderTrackingNumber(String orderTrackingNumber);
+    Optional<Order> findByOrderTrackingNumber(String orderTrackingNumber);
 
     //void deleteByOrderTrackingNumber(String );
     //find order by tracking number
